@@ -65,6 +65,7 @@ Aqui estão algumas consultas SQL criadas para explorar o banco de dados:
 
 
 **Configuração e Importação dos Dados**
+
 Criação das Tabelas:
 
 No MySQL, execute os comandos SQL para criar as tabelas Área_Brasil, Produção_Brasil e Produtividade_Brasil conforme especificado na seção Estrutura do Banco de Dados.
