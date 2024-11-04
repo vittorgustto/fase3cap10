@@ -40,22 +40,22 @@ O banco de dados contém três tabelas principais: `Área_Brasil`, `Produção_B
 
 Aqui estão algumas consultas SQL criadas para explorar o banco de dados:
 
-- **Produção total de uma cultura por estado em uma safra específica**:
+ **Produção total de uma cultura por estado em uma safra específica**:
 
     SELECT estado, SUM(producao_ton) AS producao_total
     FROM Produção_Brasil
     WHERE cultura = 'Soja' AND safra = '2023/2024'
     GROUP BY estado;
 
-Evolução da área plantada de uma cultura ao longo dos anos:
+**Evolução da área plantada de uma cultura ao longo dos anos**:
 
-SELECT safra, SUM(area_plantada_ha) AS total_area
-FROM Área_Brasil
-WHERE cultura = 'Milho'
-GROUP BY safra
-ORDER BY safra;
+    SELECT safra, SUM(area_plantada_ha) AS total_area
+    FROM Área_Brasil
+    WHERE cultura = 'Milho'
+    GROUP BY safra
+    ORDER BY safra;
 
-Ranking dos estados com maior produtividade em uma cultura específica:
+**Ranking dos estados com maior produtividade em uma cultura específica**:
 
 SELECT estado, AVG(produtividade_kg_ha) AS media_produtividade
 FROM Produtividade_Brasil
@@ -64,7 +64,7 @@ GROUP BY estado
 ORDER BY media_produtividade DESC;
 
 
-Configuração e Importação dos Dados
+**Configuração e Importação dos Dados**
 Criação das Tabelas:
 
 No MySQL, execute os comandos SQL para criar as tabelas Área_Brasil, Produção_Brasil e Produtividade_Brasil conforme especificado na seção Estrutura do Banco de Dados.
@@ -77,7 +77,7 @@ Após a configuração e importação dos dados, execute as consultas SQL fornec
 Demonstração
 Assista ao vídeo de demonstração do projeto para ver a análise dos dados agrícolas em ação.
 
-Estrutura do Repositório
+**Estrutura do Repositório**
 README.md: Documentação do projeto.
 sql/: Scripts SQL para criação e importação do banco de dados.
 csv/: Arquivos CSV contendo os dados das tabelas.
