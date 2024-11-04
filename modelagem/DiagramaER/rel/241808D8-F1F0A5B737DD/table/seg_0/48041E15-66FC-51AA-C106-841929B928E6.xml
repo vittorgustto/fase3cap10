@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48041E15-66FC-51AA-C106-841929B928E6" name="Produção_Brasil">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 18:58:49 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FFA58810-EF1F-B871-B7EC-4AFDB54D5010">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 19:38:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="026DA176-8965-0F11-7FC0-840E559443C6">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 19:38:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cultura" id="DAF2156C-DC79-7B53-545F-8885036BC768">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 19:38:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="safra" id="B6DFB67A-90B3-91AF-4FE3-CA4AEDCE1632">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 19:38:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producao_ton" id="AF9B49F9-EC00-8F27-B4B6-448583C39DE1">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 19:38:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Área_Brasil_id" id="47CE0DDD-26CD-8645-0E63-4557BA914EA5">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 20:01:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ABE589B-BCFD-E445-F603-E0586A10434B" referredColumn="3DD2EC8F-16AA-E426-05F9-F0C835103480"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8991071-10EA-67F1-8B9D-C4F86E425679" name="Produção_Brasil_PK">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 19:40:39 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA58810-EF1F-B871-B7EC-4AFDB54D5010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D05F987-AEB8-6F12-FAF1-CBD400D2124E" name="Produção_Brasil_Área_Brasil_FK">
+<createdBy>draro</createdBy>
+<createdTime>2024-11-04 20:01:19 UTC</createdTime>
+<ownerDesignName>DiagramaER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47CE0DDD-26CD-8645-0E63-4557BA914EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
