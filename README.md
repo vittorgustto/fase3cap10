@@ -93,6 +93,8 @@ Com o script aberto, selecione todas as instruções SQL ou clique com o botão 
 Verifique o log para confirmar que as tabelas foram criadas sem erros.
 Após a execução, o banco de dados estará configurado com as tabelas e relacionamentos necessários para armazenar e consultar os dados agrícolas.
 
+**Para consultar o dicionário de dados com descrições completas das tabelas e colunas, veja o arquivo Dicionario_de_Dados.xlsx.**
+
 **Estrutura do Repositório**
     README.md: Documentação do projeto.
     sql/: Scripts SQL para criação e importação do banco de dados.
