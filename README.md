@@ -78,6 +78,7 @@ Demonstração
 Assista ao vídeo de demonstração do projeto para ver a análise dos dados agrícolas em ação.
 
 **Instruções para Executar o Script de Criação de Tabelas no Oracle**
+
 Para configurar o banco de dados e reproduzir este projeto, siga as etapas abaixo:
 
 Abra o Oracle SQL Developer e conecte-se à instância de banco de dados onde as tabelas serão criadas.
