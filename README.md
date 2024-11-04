@@ -77,6 +77,20 @@ Após a configuração e importação dos dados, execute as consultas SQL fornec
 Demonstração
 Assista ao vídeo de demonstração do projeto para ver a análise dos dados agrícolas em ação.
 
+**Instruções para Executar o Script de Criação de Tabelas no Oracle**
+Para configurar o banco de dados e reproduzir este projeto, siga as etapas abaixo:
+
+Abra o Oracle SQL Developer e conecte-se à instância de banco de dados onde as tabelas serão criadas.
+
+Carregue o Script:
+
+Na interface do Oracle SQL Developer, clique em File > Open e selecione o arquivo DiagramaER.sql deste repositório (ou copie o que está dentro do arquivo DiagramaER.sql.txt).
+Execute o Script:
+
+Com o script aberto, selecione todas as instruções SQL ou clique com o botão direito e escolha Run Script para executar todo o código.
+Verifique o log para confirmar que as tabelas foram criadas sem erros.
+Após a execução, o banco de dados estará configurado com as tabelas e relacionamentos necessários para armazenar e consultar os dados agrícolas.
+
 **Estrutura do Repositório**
     README.md: Documentação do projeto.
     sql/: Scripts SQL para criação e importação do banco de dados.
