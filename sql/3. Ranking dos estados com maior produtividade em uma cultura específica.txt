@@ -1,0 +1,11 @@
+3. Ranking dos estados com maior produtividade em uma cultura específica
+Aqui, buscamos classificar os estados com base na produtividade de uma cultura em uma safra.
+
+sql:
+
+SELECT estado, produtividade_kg_ha
+FROM produtividade_brasil
+WHERE cultura = 'Café' AND safra = '2023/2024'
+ORDER BY produtividade_kg_ha DESC;
+
+Essa consulta retorna os estados em ordem decrescente de produtividade para a cultura e safra especificadas. Basta substituir 'Café' e '2023/2024' para ver os rankings de outras culturas e safras.

@@ -1,0 +1,14 @@
+Aqui estão alguns exemplos de consultas SQL. Vamos usar as tabelas área_brasil, produção_brasil e produtividade_brasil com as colunas e dados que configuramos:
+
+1. Produção total de uma determinada cultura por estado em uma safra
+Esta consulta calcula a produção total (em toneladas) de uma cultura específica em cada estado para uma safra determinada.
+
+sql:
+
+SELECT estado, SUM(producao_ton) AS producao_total
+FROM produção_brasil
+WHERE cultura = 'Soja' AND safra = '2023/2024'
+GROUP BY estado
+ORDER BY producao_total DESC;
+
+Altere 'Soja' e '2023/2024' para outras culturas e safras que queira consultar.

@@ -1,0 +1,12 @@
+2. Evolução da área plantada de uma cultura ao longo dos anos
+Este exemplo mostra como consultar a evolução da área plantada (em hectares) de uma cultura específica em várias safras.
+
+sql:
+
+SELECT safra, SUM(area_plantada_ha) AS area_total
+FROM área_brasil
+WHERE cultura = 'Milho'
+GROUP BY safra
+ORDER BY safra;
+
+Troque 'Milho' pela cultura desejada. Essa consulta ajuda a visualizar se a área plantada de uma cultura aumentou ou diminuiu ao longo do tempo.
