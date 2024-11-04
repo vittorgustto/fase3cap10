@@ -81,6 +81,7 @@ Assista ao vídeo de demonstração do projeto para ver a análise dos dados agr
     README.md: Documentação do projeto.
     sql/: Scripts SQL para criação e importação do banco de dados.
     csv/: Arquivos CSV contendo os dados das tabelas.
+    modelagem/: Contém os arquivos relacionados à boa execução do diagrama MER no Oracle SQL Data Modeler.
     docs/: Documentação do projeto.
     img/: Contém o diagrama MER.
     video/: Link para o vídeo de demonstração do projeto.
