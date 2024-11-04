@@ -41,11 +41,11 @@ O banco de dados contém três tabelas principais: `Área_Brasil`, `Produção_B
 Aqui estão algumas consultas SQL criadas para explorar o banco de dados:
 
 - **Produção total de uma cultura por estado em uma safra específica**:
-  ```sql
-  SELECT estado, SUM(producao_ton) AS producao_total
-  FROM Produção_Brasil
-  WHERE cultura = 'Soja' AND safra = '2023/2024'
-  GROUP BY estado;
+
+    SELECT estado, SUM(producao_ton) AS producao_total
+    FROM Produção_Brasil
+    WHERE cultura = 'Soja' AND safra = '2023/2024'
+    GROUP BY estado;
 
 Evolução da área plantada de uma cultura ao longo dos anos:
 
