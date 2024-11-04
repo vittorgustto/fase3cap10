@@ -57,11 +57,11 @@ Aqui estão algumas consultas SQL criadas para explorar o banco de dados:
 
 **Ranking dos estados com maior produtividade em uma cultura específica**:
 
-SELECT estado, AVG(produtividade_kg_ha) AS media_produtividade
-FROM Produtividade_Brasil
-WHERE cultura = 'Café'
-GROUP BY estado
-ORDER BY media_produtividade DESC;
+    SELECT estado, AVG(produtividade_kg_ha) AS media_produtividade
+    FROM Produtividade_Brasil
+    WHERE cultura = 'Café'
+    GROUP BY estado
+    ORDER BY media_produtividade DESC;
 
 
 **Configuração e Importação dos Dados**
@@ -78,9 +78,10 @@ Demonstração
 Assista ao vídeo de demonstração do projeto para ver a análise dos dados agrícolas em ação.
 
 **Estrutura do Repositório**
-README.md: Documentação do projeto.
-sql/: Scripts SQL para criação e importação do banco de dados.
-csv/: Arquivos CSV contendo os dados das tabelas.
-docs/: Documentação do projeto.
-video/: Link para o vídeo de demonstração do projeto.
+    README.md: Documentação do projeto.
+    sql/: Scripts SQL para criação e importação do banco de dados.
+    csv/: Arquivos CSV contendo os dados das tabelas.
+    docs/: Documentação do projeto.
+    img/: Contém o diagrama MER.
+    video/: Link para o vídeo de demonstração do projeto.
 
